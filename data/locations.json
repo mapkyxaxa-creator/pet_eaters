@@ -1,0 +1,114 @@
+{
+  "park": {
+    "id": "park",
+    "name": "Парк",
+    "emoji": "🌳",
+    "min_level": 1,
+    "energy_cost": 10,
+    "duration": 60,
+    "description": "Прогулка в парке",
+    "rarity_weights": {
+      "common": 70,
+      "uncommon": 25,
+      "rare": 5,
+      "epic": 0,
+      "legendary": 0
+    }
+  },
+  "forest": {
+    "id": "forest",
+    "name": "Лес",
+    "emoji": "🌲",
+    "min_level": 3,
+    "energy_cost": 12,
+    "duration": 75,
+    "description": "Тайны дремучего леса",
+    "rarity_weights": {
+      "common": 55,
+      "uncommon": 30,
+      "rare": 12,
+      "epic": 3,
+      "legendary": 0
+    }
+  },
+  "city": {
+    "id": "city",
+    "name": "Город",
+    "emoji": "🏙️",
+    "min_level": 5,
+    "energy_cost": 15,
+    "duration": 90,
+    "description": "Шумный мегаполис",
+    "rarity_weights": {
+      "common": 45,
+      "uncommon": 30,
+      "rare": 18,
+      "epic": 6,
+      "legendary": 1
+    }
+  },
+  "beach": {
+    "id": "beach",
+    "name": "Пляж",
+    "emoji": "🏖️",
+    "min_level": 8,
+    "energy_cost": 18,
+    "duration": 105,
+    "description": "Отдых на побережье",
+    "rarity_weights": {
+      "common": 35,
+      "uncommon": 28,
+      "rare": 22,
+      "epic": 12,
+      "legendary": 3
+    }
+  },
+  "castle": {
+    "id": "castle",
+    "name": "Замок",
+    "emoji": "🏰",
+    "min_level": 12,
+    "energy_cost": 20,
+    "duration": 120,
+    "description": "Древний замок",
+    "rarity_weights": {
+      "common": 20,
+      "uncommon": 30,
+      "rare": 28,
+      "epic": 17,
+      "legendary": 5
+    }
+  },
+  "volcano": {
+    "id": "volcano",
+    "name": "Вулкан",
+    "emoji": "🌋",
+    "min_level": 16,
+    "energy_cost": 25,
+    "duration": 150,
+    "description": "Огненная гора",
+    "rarity_weights": {
+      "common": 10,
+      "uncommon": 20,
+      "rare": 30,
+      "epic": 28,
+      "legendary": 12
+    }
+  },
+  "space": {
+    "id": "space",
+    "name": "Космос",
+    "emoji": "🌌",
+    "min_level": 20,
+    "energy_cost": 30,
+    "duration": 180,
+    "description": "Бескрайний космос",
+    "rarity_weights": {
+      "common": 5,
+      "uncommon": 10,
+      "rare": 25,
+      "epic": 35,
+      "legendary": 25
+    }
+  }
+}

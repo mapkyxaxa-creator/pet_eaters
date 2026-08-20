@@ -1,0 +1,54 @@
+{
+  "packages": [
+    {
+      "id": "paw_small",
+      "name": "Маленькая лапка",
+      "emoji": "🐾",
+      "amount": 100,
+      "bonus": 0,
+      "price": 0.99,
+      "stars_price": 50,
+      "description": "100 🐾 для начала"
+    },
+    {
+      "id": "paw_handful",
+      "name": "Горсть лапок",
+      "emoji": "🐾",
+      "amount": 550,
+      "bonus": 50,
+      "price": 4.99,
+      "stars_price": 250,
+      "description": "550 🐾 — отличный старт"
+    },
+    {
+      "id": "paw_big",
+      "name": "Большая пачка",
+      "emoji": "🐾",
+      "amount": 1200,
+      "bonus": 120,
+      "price": 9.99,
+      "stars_price": 500,
+      "description": "1200 🐾 для настоящих ценителей"
+    },
+    {
+      "id": "paw_bag",
+      "name": "Мешок лапок",
+      "emoji": "🐾",
+      "amount": 2500,
+      "bonus": 300,
+      "price": 19.99,
+      "stars_price": 1000,
+      "description": "2500 🐾 — серьёзный запас"
+    },
+    {
+      "id": "paw_huge",
+      "name": "Огромная пачка",
+      "emoji": "🐾",
+      "amount": 6000,
+      "bonus": 800,
+      "price": 49.99,
+      "stars_price": 2500,
+      "description": "6000 🐾 — королевский запас"
+    }
+  ]
+}

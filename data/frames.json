@@ -1,0 +1,52 @@
+{
+  "frames": [
+    {
+      "id": "fire_frame",
+      "name": "Огненная рамка",
+      "emoji": "🔥",
+      "price": 200,
+      "rarity": "rare",
+      "description": "Горячая рамка"
+    },
+    {
+      "id": "diamond_frame",
+      "name": "Алмазная рамка",
+      "emoji": "💎",
+      "price": 300,
+      "rarity": "epic",
+      "description": "Блеск алмазов"
+    },
+    {
+      "id": "rainbow_frame",
+      "name": "Радужная рамка",
+      "emoji": "🌈",
+      "price": 250,
+      "rarity": "rare",
+      "description": "Все цвета радуги"
+    },
+    {
+      "id": "royal_frame",
+      "name": "Королевская рамка",
+      "emoji": "👑",
+      "price": 500,
+      "rarity": "epic",
+      "description": "Для королевских особ"
+    },
+    {
+      "id": "cosmic_frame",
+      "name": "Космическая рамка",
+      "emoji": "🌌",
+      "price": 400,
+      "rarity": "epic",
+      "description": "Звёздная бездна"
+    },
+    {
+      "id": "legendary_frame",
+      "name": "Легендарная рамка",
+      "emoji": "🌟",
+      "price": 1000,
+      "rarity": "legendary",
+      "description": "Только для легенд"
+    }
+  ]
+}

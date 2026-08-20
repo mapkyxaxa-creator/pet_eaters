@@ -1,0 +1,44 @@
+{
+  "glutton": {
+    "id": "glutton",
+    "name": "Обжора",
+    "emoji": "😂",
+    "bonus": {"hunger": 1.15},
+    "bonus_description": "+15% к сытости"
+  },
+  "sleepy": {
+    "id": "sleepy",
+    "name": "Соня",
+    "emoji": "😴",
+    "bonus": {"recovery": 1.20},
+    "bonus_description": "+20% восстановления"
+  },
+  "bully": {
+    "id": "bully",
+    "name": "Хулиган",
+    "emoji": "😈",
+    "bonus": {"rare_items": 1.10},
+    "bonus_description": "+10% к редким предметам"
+  },
+  "fidget": {
+    "id": "fidget",
+    "name": "Непоседа",
+    "emoji": "⚡",
+    "bonus": {"adventure_time": 0.85},
+    "bonus_description": "-15% времени приключений"
+  },
+  "master": {
+    "id": "master",
+    "name": "Барин",
+    "emoji": "👑",
+    "bonus": {"coins": 1.10},
+    "bonus_description": "+10% к монетам"
+  },
+  "kind": {
+    "id": "kind",
+    "name": "Добряк",
+    "emoji": "❤️",
+    "bonus": {"gifts": 1.10},
+    "bonus_description": "+10% к подаркам"
+  }
+}

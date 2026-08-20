@@ -1,0 +1,94 @@
+{
+  "cosmetics": [
+    {
+      "id": "hat",
+      "name": "Шляпа",
+      "emoji": "🎩",
+      "category": "head",
+      "price": 50,
+      "rarity": "common",
+      "description": "Классическая шляпа"
+    },
+    {
+      "id": "crown",
+      "name": "Корона",
+      "emoji": "👑",
+      "category": "head",
+      "price": 200,
+      "rarity": "epic",
+      "description": "Корона для настоящего короля"
+    },
+    {
+      "id": "glasses",
+      "name": "Очки",
+      "emoji": "🕶️",
+      "category": "head",
+      "price": 80,
+      "rarity": "uncommon",
+      "description": "Стильные солнечные очки"
+    },
+    {
+      "id": "super_suit",
+      "name": "Костюм супергероя",
+      "emoji": "🦸",
+      "category": "body",
+      "price": 300,
+      "rarity": "epic",
+      "description": "Спасать мир по расписанию"
+    },
+    {
+      "id": "pirate_suit",
+      "name": "Пиратский костюм",
+      "emoji": "🏴‍☠️",
+      "category": "body",
+      "price": 250,
+      "rarity": "rare",
+      "description": "Йо-хо-хо и бутылка рома!"
+    },
+    {
+      "id": "bow",
+      "name": "Бантик",
+      "emoji": "🎀",
+      "category": "head",
+      "price": 30,
+      "rarity": "common",
+      "description": "Милый бантик"
+    },
+    {
+      "id": "scarf",
+      "name": "Шарф",
+      "emoji": "🧣",
+      "category": "body",
+      "price": 70,
+      "rarity": "uncommon",
+      "description": "Тёплый уютный шарф"
+    },
+    {
+      "id": "ninja_mask",
+      "name": "Маска ниндзя",
+      "emoji": "🥷",
+      "category": "head",
+      "price": 150,
+      "rarity": "rare",
+      "description": "Тень и стиль"
+    },
+    {
+      "id": "halo",
+      "name": "Нимб",
+      "emoji": "👼",
+      "category": "head",
+      "price": 500,
+      "rarity": "legendary",
+      "description": "Ангельское сияние"
+    },
+    {
+      "id": "lightning",
+      "name": "Молния",
+      "emoji": "⚡",
+      "category": "effect",
+      "price": 800,
+      "rarity": "legendary",
+      "description": "Энергия молнии"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "park": [
+    {
+      "id": "park_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 50,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился в парке! Он раздаёт золотые билеты! +50 монет и золотой билет."
+    },
+    {
+      "id": "park_pizza",
+      "type": "food",
+      "weight": 15,
+      "reward": "pizza",
+      "text": "🍕 В кустах нашлась пицца! Кто её там оставил?"
+    },
+    {
+      "id": "park_bread",
+      "type": "food",
+      "weight": 20,
+      "reward": "bread",
+      "text": "🥖 Рич нашёл свежий батон! Голуби не успели склевать."
+    },
+    {
+      "id": "park_cookie",
+      "type": "food",
+      "weight": 25,
+      "reward": "cookie",
+      "text": "🍪 Кто-то обронил печенье. Твой питомец не устоял!"
+    },
+    {
+      "id": "park_sausage",
+      "type": "food",
+      "weight": 20,
+      "reward": "sausage",
+      "text": "🌭 Сосиска нашлась на скамейке. Может, кто-то её забыл?"
+    },
+    {
+      "id": "park_bird",
+      "type": "penalty",
+      "weight": 10,
+      "reward": {
+        "type": "penalty",
+        "amount": 10
+      },
+      "text": "🐦 Ворона украла твою находку! Потеряно 10 монет."
+    },
+    {
+      "id": "park_old_lady",
+      "type": "reward",
+      "weight": 10,
+      "reward": {
+        "item": "cookie",
+        "amount": 3
+      },
+      "text": "👵 Бабушка угостила печеньем! Получено 3 печенья."
+    }
+  ],
+  "forest": [
+    {
+      "id": "forest_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 60,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился в лесу! Он искал грибы, но раздаёт золотые билеты! +60 монет и золотой билет."
+    },
+    {
+      "id": "forest_mushroom",
+      "type": "food",
+      "weight": 15,
+      "reward": "mushroom",
+      "text": "🍄 Грибная поляна! Нашёл ароматный гриб."
+    },
+    {
+      "id": "forest_berries",
+      "type": "food",
+      "weight": 20,
+      "reward": "berries",
+      "text": "🫐 Куст с ягодами. Сладко и полезно!"
+    },
+    {
+      "id": "forest_chicken",
+      "type": "food",
+      "weight": 20,
+      "reward": "chicken_leg",
+      "text": "🍗 В лесу нашлась куриная ножка. Кто-то готовил пикник."
+    },
+    {
+      "id": "forest_bacon",
+      "type": "food",
+      "weight": 15,
+      "reward": "bacon",
+      "text": "🥓 Аромат бекона привёл к находке!"
+    },
+    {
+      "id": "forest_squirrel",
+      "type": "reward",
+      "weight": 15,
+      "reward": "nuts",
+      "text": "🐿️ Белка поделилась орехами! Получено 5 монет."
+    },
+    {
+      "id": "forest_hunter",
+      "type": "reward",
+      "weight": 15,
+      "reward": "50",
+      "text": "🏹 Встреча с охотником. Он поделился добычей! +50 монет."
+    }
+  ],
+  "city": [
+    {
+      "id": "city_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 70,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился в городе! Он угощает всех мороженым и раздаёт золотые билеты! +70 монет и золотой билет."
+    },
+    {
+      "id": "city_pizza",
+      "type": "food",
+      "weight": 15,
+      "reward": "pizza",
+      "text": "🍕 Пиццерия закрывается. Кусочек пиццы нашёлся."
+    },
+    {
+      "id": "city_burger",
+      "type": "food",
+      "weight": 15,
+      "reward": "burger",
+      "text": "🍔 Фаст-фуд уронил бургер. Твой питомец счастлив!"
+    },
+    {
+      "id": "city_steak",
+      "type": "food",
+      "weight": 10,
+      "reward": "steak",
+      "text": "🥩 Стейк из ресторана. Чей-то обед пропал!"
+    },
+    {
+      "id": "city_fries",
+      "type": "food",
+      "weight": 20,
+      "reward": "fries",
+      "text": "🍟 Картошка фри рассыпалась. Лакомство для питомца!"
+    },
+    {
+      "id": "city_donut",
+      "type": "food",
+      "weight": 15,
+      "reward": "donut",
+      "text": "🍩 Пончик упал с витрины. Как удачно!"
+    },
+    {
+      "id": "city_cupcake",
+      "type": "food",
+      "weight": 10,
+      "reward": "cupcake",
+      "text": "🧁 Кекс в коробке. Кто-то забыл на скамейке."
+    },
+    {
+      "id": "city_money",
+      "type": "reward",
+      "weight": 15,
+      "reward": "30",
+      "text": "💰 Монета сверкнула в траве! Нашёл 30 монет."
+    }
+  ],
+  "beach": [
+    {
+      "id": "beach_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 80,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился на пляже! Он строит замки из песка и раздаёт золотые билеты! +80 монет и золотой билет."
+    },
+    {
+      "id": "beach_lobster",
+      "type": "food",
+      "weight": 10,
+      "reward": "lobster",
+      "text": "🦞 Омар выбросился на берег! Деликатес!"
+    },
+    {
+      "id": "beach_ice_cream",
+      "type": "food",
+      "weight": 20,
+      "reward": "ice_cream",
+      "text": "🍦 Мороженое тает на солнце. Скорее съесть!"
+    },
+    {
+      "id": "beach_sushi",
+      "type": "food",
+      "weight": 15,
+      "reward": "sushi",
+      "text": "🍣 Суши в коробке. Рыбный день!"
+    },
+    {
+      "id": "beach_treasure",
+      "type": "reward",
+      "weight": 10,
+      "reward": "100",
+      "text": "💎 Сокровище в песке! Нашёл 100 монет!"
+    },
+    {
+      "id": "beach_crab",
+      "type": "penalty",
+      "weight": 15,
+      "reward": {
+        "type": "penalty",
+        "amount": 10
+      },
+      "text": "🦀 Краб ущипнул за лапу! Потеряно 10 монет."
+    },
+    {
+      "id": "beach_sun",
+      "type": "reward",
+      "weight": 15,
+      "reward": {
+        "type": "happiness",
+        "amount": 5
+      },
+      "text": "☀️ Питомец загорел на солнышке! Счастье +5."
+    }
+  ],
+  "castle": [
+    {
+      "id": "castle_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 100,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился в замке! Он стал королём на день и раздаёт золотые билеты! +100 монет и золотой билет."
+    },
+    {
+      "id": "castle_feast",
+      "type": "food",
+      "weight": 15,
+      "reward": "turkey",
+      "text": "🏰 В замке пир! Нашлась целая индейка!"
+    },
+    {
+      "id": "castle_bone",
+      "type": "food",
+      "weight": 15,
+      "reward": "mega_bone",
+      "text": "🦴 Мега-косточка нашлась в сокровищнице!"
+    },
+    {
+      "id": "castle_cake",
+      "type": "food",
+      "weight": 15,
+      "reward": "giant_cake",
+      "text": "🎂 Огромный торт! Король угощает всех!"
+    },
+    {
+      "id": "castle_treasure",
+      "type": "reward",
+      "weight": 20,
+      "reward": "150",
+      "text": "👑 Нашёл сундук с сокровищами! +150 монет!"
+    },
+    {
+      "id": "castle_ghost",
+      "type": "penalty",
+      "weight": 15,
+      "reward": {
+        "type": "penalty",
+        "amount": 30
+      },
+      "text": "👻 Призрак замка напугал питомца! Потеряно 30 монет."
+    },
+    {
+      "id": "castle_royal",
+      "type": "reward",
+      "weight": 20,
+      "reward": {
+        "type": "happiness",
+        "amount": 10
+      },
+      "text": "👑 Король устроил праздник! Счастье +10!"
+    }
+  ],
+  "volcano": [
+    {
+      "id": "volcano_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 120,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился у вулкана! Он закалил свой характер и раздаёт золотые билеты! +120 монет и золотой билет."
+    },
+    {
+      "id": "volcano_dragon",
+      "type": "food",
+      "weight": 10,
+      "reward": "dragons_steak",
+      "text": "🐉 Дракон поделился стейком! Легендарная находка!"
+    },
+    {
+      "id": "volcano_golden_apple",
+      "type": "food",
+      "weight": 15,
+      "reward": "golden_apple",
+      "text": "🍎 Золотое яблоко растёт у кратера!"
+    },
+    {
+      "id": "volcano_chocolate",
+      "type": "food",
+      "weight": 20,
+      "reward": "chocolate_fountain",
+      "text": "🍫 Шоколадный фонтан из лавы! Вкусно!"
+    },
+    {
+      "id": "volcano_gems",
+      "type": "reward",
+      "weight": 20,
+      "reward": "200",
+      "text": "💎 Самоцветы у кратера! +200 монет!"
+    },
+    {
+      "id": "volcano_eruption",
+      "type": "penalty",
+      "weight": 15,
+      "reward": {
+        "type": "penalty",
+        "amount": 50
+      },
+      "text": "🌋 Вулкан извергся! Потеряно 50 монет."
+    },
+    {
+      "id": "volcano_phoenix",
+      "type": "reward",
+      "weight": 20,
+      "reward": {
+        "type": "happiness",
+        "amount": 15
+      },
+      "text": "🦅 Феникс подарил перо! Счастье +15!"
+    }
+  ],
+  "space": [
+    {
+      "id": "space_rich_appears",
+      "type": "rich",
+      "weight": 10,
+      "reward": {
+        "coins": 150,
+        "item": "golden_ticket"
+      },
+      "text": "💎 Рич появился в космосе! Он прилетел на своей ракете и раздаёт золотые билеты! +150 монет и золотой билет."
+    },
+    {
+      "id": "space_celestial_cake",
+      "type": "food",
+      "weight": 10,
+      "reward": "celestial_cake",
+      "text": "🌟 Небесный торт! Космическая вкуснятина!"
+    },
+    {
+      "id": "space_legendary_bone",
+      "type": "food",
+      "weight": 10,
+      "reward": "legendary_bone",
+      "text": "👑 Легендарная косточка из созвездия Пса!"
+    },
+    {
+      "id": "space_pizza",
+      "type": "food",
+      "weight": 15,
+      "reward": "infinite_pizza",
+      "text": "🍕 Пицца бесконечного жора! Космическая доставка!"
+    },
+    {
+      "id": "space_stardust",
+      "type": "reward",
+      "weight": 20,
+      "reward": "300",
+      "text": "✨ Звёздная пыль! +300 монет!"
+    },
+    {
+      "id": "space_meteor",
+      "type": "penalty",
+      "weight": 15,
+      "reward": {
+        "type": "penalty",
+        "amount": 80
+      },
+      "text": "☄️ Метеоритный дождь! Потеряно 80 монет."
+    },
+    {
+      "id": "space_galaxy",
+      "type": "reward",
+      "weight": 30,
+      "reward": {
+        "type": "happiness",
+        "amount": 20
+      },
+      "text": "🌌 Галактическое сияние! Счастье +20!"
+    }
+  ]
+}

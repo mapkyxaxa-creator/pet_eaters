@@ -1,0 +1,135 @@
+{
+  "house_templates": {
+    "basic": {
+      "name": "Базовый домик",
+      "emoji": "🏠",
+      "description": "Уютный домик для питомца",
+      "rooms": ["living_room", "kitchen", "bedroom"],
+      "max_rooms": 3,
+      "cost": 0,
+      "bonuses": {
+        "energy_recovery_boost": 0,
+        "happiness_boost": 0,
+        "hunger_reduction": 0,
+        "luck_boost": 0
+      }
+    },
+    "cozy": {
+      "name": "Уютный домик",
+      "emoji": "🏡",
+      "description": "Тёплый и уютный дом",
+      "rooms": ["living_room", "kitchen", "bedroom", "garden"],
+      "max_rooms": 4,
+      "cost": 500,
+      "bonuses": {
+        "energy_recovery_boost": 10,
+        "happiness_boost": 10,
+        "hunger_reduction": 5,
+        "luck_boost": 0
+      }
+    },
+    "luxury": {
+      "name": "Роскошный особняк",
+      "emoji": "🏰",
+      "description": "Шикарный дом для достойного питомца",
+      "rooms": ["living_room", "kitchen", "bedroom", "garden", "game_room"],
+      "max_rooms": 5,
+      "cost": 1500,
+      "bonuses": {
+        "energy_recovery_boost": 25,
+        "happiness_boost": 20,
+        "hunger_reduction": 10,
+        "luck_boost": 5
+      }
+    },
+    "mansion": {
+      "name": "Вилла мечты",
+      "emoji": "🏯",
+      "description": "Невероятная вилла с бассейном",
+      "rooms": ["living_room", "kitchen", "bedroom", "garden", "game_room", "pool"],
+      "max_rooms": 6,
+      "cost": 5000,
+      "bonuses": {
+        "energy_recovery_boost": 50,
+        "happiness_boost": 35,
+        "hunger_reduction": 20,
+        "luck_boost": 10
+      }
+    }
+  },
+  "rooms": {
+    "living_room": {
+      "name": "Гостиная",
+      "emoji": "🛋️",
+      "description": "Место для отдыха и общения",
+      "unlock_level": 1,
+      "cost": 0,
+      "bonuses": {
+        "happiness_boost": 5
+      }
+    },
+    "kitchen": {
+      "name": "Кухня",
+      "emoji": "🍳",
+      "description": "Место для приготовления еды",
+      "unlock_level": 1,
+      "cost": 0,
+      "bonuses": {
+        "hunger_reduction": 5
+      }
+    },
+    "bedroom": {
+      "name": "Спальня",
+      "emoji": "🛏️",
+      "description": "Место для сна и восстановления",
+      "unlock_level": 2,
+      "cost": 200,
+      "bonuses": {
+        "energy_recovery_boost": 10
+      }
+    },
+    "garden": {
+      "name": "Сад",
+      "emoji": "🌿",
+      "description": "Зелёный уголок для прогулок",
+      "unlock_level": 3,
+      "cost": 300,
+      "bonuses": {
+        "happiness_boost": 10,
+        "luck_boost": 5
+      }
+    },
+    "game_room": {
+      "name": "Игровая комната",
+      "emoji": "🎮",
+      "description": "Место для игр и развлечений",
+      "unlock_level": 4,
+      "cost": 500,
+      "bonuses": {
+        "happiness_boost": 15
+      }
+    },
+    "pool": {
+      "name": "Бассейн",
+      "emoji": "🏊",
+      "description": "Освежающий бассейн",
+      "unlock_level": 5,
+      "cost": 800,
+      "bonuses": {
+        "energy_recovery_boost": 20,
+        "happiness_boost": 10
+      }
+    }
+  },
+  "upgrade_costs": {
+    "level_2": 200,
+    "level_3": 500,
+    "level_4": 1000,
+    "level_5": 2000,
+    "level_6": 5000
+  },
+  "visit_reward": {
+    "coins": 10,
+    "happiness_boost": 2
+  }
+}

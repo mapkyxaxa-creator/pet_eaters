@@ -1,0 +1,34 @@
+{
+  "starting_coins": 500,
+  "starting_stomach": 100,
+  "starting_energy": 100,
+  "starting_happiness": 50,
+  "starting_luck": 0.05,
+  "starting_smell": 10,
+  "starting_eating_speed": 10,
+  
+  "max_level": 50,
+  "max_energy": 100,
+  "max_happiness": 100,
+  "max_luck": 0.30,
+  "max_smell": 100,
+  
+  "energy_recovery": 10,
+  "energy_recovery_interval": 30,
+  "hunger_recovery": 5,
+  "hunger_recovery_interval": 30,
+  "happiness_decay": 1,
+  "happiness_decay_interval": 1440,
+  
+  "adventure_energy_cost": 10,
+  "base_critical_eat_chance": 0.05,
+  "hunger_overflow_max": 2.0,
+  
+  "xp_base": 100,
+  "xp_per_level": 50,
+  
+  "stomach_per_level": 20,
+  "smell_per_level": 1.5,
+  "luck_per_level": 0.005,
+  "eating_speed_per_level": 1
+}

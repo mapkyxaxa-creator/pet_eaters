@@ -1,0 +1,98 @@
+{
+  "daily_eat_5": {
+    "id": "daily_eat_5",
+    "name": "Сладкоежка",
+    "emoji": "🍪",
+    "description": "Съесть 5 печений",
+    "condition_type": "eat_item",
+    "condition_value": 5,
+    "condition_item": "cookie",
+    "reward_coins": 50,
+    "reward_xp": 20,
+    "reward_item": null
+  },
+  "daily_adventure_2": {
+    "id": "daily_adventure_2",
+    "name": "Исследователь",
+    "emoji": "🗺️",
+    "description": "Сходить в 2 приключения",
+    "condition_type": "adventure_count",
+    "condition_value": 2,
+    "condition_item": null,
+    "reward_coins": 100,
+    "reward_xp": 40,
+    "reward_item": null
+  },
+  "daily_find_rare": {
+    "id": "daily_find_rare",
+    "name": "Охотник за редкостями",
+    "emoji": "🔍",
+    "description": "Найти редкую еду (Rare+)",
+    "condition_type": "find_rarity",
+    "condition_value": 1,
+    "condition_item": "rare",
+    "reward_coins": 150,
+    "reward_xp": 50,
+    "reward_item": "chest"
+  },
+  "daily_eat_3": {
+    "id": "daily_eat_3",
+    "name": "Гурман",
+    "emoji": "🍽️",
+    "description": "Съесть 3 любых блюда",
+    "condition_type": "eat_any",
+    "condition_value": 3,
+    "condition_item": null,
+    "reward_coins": 30,
+    "reward_xp": 15,
+    "reward_item": null
+  },
+  "daily_adventure_1": {
+    "id": "daily_adventure_1",
+    "name": "Прогульщик",
+    "emoji": "🚶",
+    "description": "Сходить в 1 приключение",
+    "condition_type": "adventure_count",
+    "condition_value": 1,
+    "condition_item": null,
+    "reward_coins": 50,
+    "reward_xp": 20,
+    "reward_item": null
+  },
+  "daily_find_epic": {
+    "id": "daily_find_epic",
+    "name": "Охотник за сокровищами",
+    "emoji": "💎",
+    "description": "Найти эпическую еду (Epic+)",
+    "condition_type": "find_rarity",
+    "condition_value": 1,
+    "condition_item": "epic",
+    "reward_coins": 200,
+    "reward_xp": 80,
+    "reward_item": "key"
+  },
+  "daily_eat_pizza": {
+    "id": "daily_eat_pizza",
+    "name": "Пицца-день",
+    "emoji": "🍕",
+    "description": "Съесть пиццу",
+    "condition_type": "eat_item",
+    "condition_value": 1,
+    "condition_item": "pizza",
+    "reward_coins": 80,
+    "reward_xp": 30,
+    "reward_item": null
+  },
+  "daily_friends": {
+    "id": "daily_friends",
+    "name": "Дружелюбный",
+    "emoji": "🤝",
+    "description": "Отправить подарок другу",
+    "condition_type": "send_gift",
+    "condition_value": 1,
+    "condition_item": null,
+    "reward_coins": 40,
+    "reward_xp": 15,
+    "reward_item": null
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "premium": {
+    "id": "premium_subscription",
+    "name": "Premium",
+    "price": 500,
+    "currency": "🐾",
+    "duration_days": 30,
+    "features": [
+      {
+        "id": "unique_frame",
+        "name": "Уникальная рамка",
+        "emoji": "👑",
+        "description": "Эксклюзивная рамка для профиля"
+      },
+      {
+        "id": "more_photos",
+        "name": "+5 фото в альбоме",
+        "emoji": "📸",
+        "description": "Максимум 25 фото вместо 20"
+      },
+      {
+        "id": "extended_album",
+        "name": "Расширенный альбом",
+        "emoji": "🎨",
+        "description": "До 50 фото"
+      },
+      {
+        "id": "premium_badge",
+        "name": "Значок Premium",
+        "emoji": "⭐",
+        "description": "Отображается в профиле"
+      },
+      {
+        "id": "daily_bonus",
+        "name": "+50% к ежедневной награде",
+        "emoji": "📅",
+        "description": "Увеличенная награда"
+      }
+    ]
+  }
+}

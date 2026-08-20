@@ -1,0 +1,238 @@
+{
+  "newcomer": {
+    "id": "newcomer",
+    "name": "Новичок",
+    "emoji": "🐣",
+    "description": "Создать питомца",
+    "condition": "create_pet"
+  },
+  "cookie_eater": {
+    "id": "cookie_eater",
+    "name": "Обжора",
+    "emoji": "🍪",
+    "description": "Съесть 100 печений",
+    "condition": "cookie_lover"
+  },
+  "pizza_lord": {
+    "id": "pizza_lord",
+    "name": "Повелитель пиццы",
+    "emoji": "🍕",
+    "description": "Съесть 100 пицц",
+    "condition": "pizza_lover"
+  },
+  "sausage_king": {
+    "id": "sausage_king",
+    "name": "Король сосисок",
+    "emoji": "🌭",
+    "description": "Съесть 100 сосисок",
+    "condition": "sausage_king"
+  },
+  "cake_destroyer": {
+    "id": "cake_destroyer",
+    "name": "Разрушитель тортов",
+    "emoji": "🎂",
+    "description": "Переесть 50 раз",
+    "condition": "overeat_king"
+  },
+  "glutton": {
+    "id": "glutton",
+    "name": "Жор",
+    "emoji": "🐷",
+    "description": "Съесть 1000 еды",
+    "condition": "eater_1000"
+  },
+  "legendary_glutton": {
+    "id": "legendary_glutton",
+    "name": "Легендарный обжора",
+    "emoji": "🏆",
+    "description": "Съесть 10000 еды",
+    "condition": "eater_10000"
+  },
+  "traveler": {
+    "id": "traveler",
+    "name": "Путешественник",
+    "emoji": "🗺️",
+    "description": "Посетить 50 локаций",
+    "condition": "adventurer_50"
+  },
+  "explorer": {
+    "id": "explorer",
+    "name": "Исследователь",
+    "emoji": "🧭",
+    "description": "Посетить 100 локаций",
+    "condition": "adventurer_100"
+  },
+  "champion": {
+    "id": "champion",
+    "name": "Чемпион",
+    "emoji": "🏆",
+    "description": "Выиграть 10 соревнований",
+    "condition": "competition_win_10"
+  },
+  "legend": {
+    "id": "legend",
+    "name": "Легенда",
+    "emoji": "👑",
+    "description": "Выиграть 50 соревнований",
+    "condition": "competition_win_50"
+  },
+  "veteran": {
+    "id": "veteran",
+    "name": "Ветеран",
+    "emoji": "⭐",
+    "description": "Уровень 25",
+    "condition": "level_25"
+  },
+  "legendary_pet": {
+    "id": "legendary_pet",
+    "name": "Легендарный питомец",
+    "emoji": "👑",
+    "description": "Уровень 50",
+    "condition": "level_50"
+  },
+  "collector": {
+    "id": "collector",
+    "name": "Коллекционер",
+    "emoji": "📚",
+    "description": "Собрать 30 блюд",
+    "condition": "collector_30"
+  },
+  "master_collector": {
+    "id": "master_collector",
+    "name": "Мастер коллекций",
+    "emoji": "👑",
+    "description": "Собрать все блюда",
+    "condition": "collector_50"
+  },
+  "couch_potato": {
+    "id": "couch_potato",
+    "name": "Лежебока",
+    "emoji": "🛋️",
+    "description": "Не играть 7 дней",
+    "condition": "couch_potato"
+  },
+  "lucky": {
+    "id": "lucky",
+    "name": "Счастливчик",
+    "emoji": "🍀",
+    "description": "Найти легендарную еду",
+    "condition": "lucky"
+  },
+  "social_likes_100": {
+    "requirement": 100,
+    "id": "social_likes_100",
+    "name": "Любимчик",
+    "emoji": "❤️",
+    "description": "Получить 100 лайков",
+    "condition": "social"
+  },
+  "social_likes_500": {
+    "requirement": 500,
+    "id": "social_likes_500",
+    "name": "Звезда района",
+    "emoji": "❤️",
+    "description": "Получить 500 лайков",
+    "condition": "social"
+  },
+  "social_likes_1000": {
+    "requirement": 1000,
+    "id": "social_likes_1000",
+    "name": "Знаменитость",
+    "emoji": "🌟",
+    "description": "Получить 1000 лайков",
+    "condition": "social"
+  },
+  "social_likes_5000": {
+    "requirement": 5000,
+    "id": "social_likes_5000",
+    "name": "Любимец публики",
+    "emoji": "👑",
+    "description": "Получить 5000 лайков",
+    "condition": "social"
+  },
+  "social_likes_10000": {
+    "requirement": 10000,
+    "id": "social_likes_10000",
+    "name": "Легенда питомцев",
+    "emoji": "🌎",
+    "description": "Получить 10000 лайков",
+    "condition": "social"
+  },
+  "story_chapter_1": {
+    "id": "story_chapter_1",
+    "name": "Искатель",
+    "emoji": "🔎",
+    "description": "Пройти сюжетную главу «Начало поисков»",
+    "condition": "story_chapter_1"
+  },
+  "story_chapter_2": {
+    "id": "story_chapter_2",
+    "name": "Следопыт",
+    "emoji": "🐾",
+    "description": "Пройти сюжетную главу «Первая зацепка»",
+    "condition": "story_chapter_2"
+  },
+  "story_chapter_3": {
+    "id": "story_chapter_3",
+    "name": "Друг",
+    "emoji": "🤝",
+    "description": "Пройти сюжетную главу «Встреча с Ричем»",
+    "condition": "story_chapter_3"
+  },
+  "story_chapter_4": {
+    "id": "story_chapter_4",
+    "name": "Мореход",
+    "emoji": "⛵",
+    "description": "Пройти сюжетную главу «Морские приключения»",
+    "condition": "story_chapter_4"
+  },
+  "story_chapter_5": {
+    "id": "story_chapter_5",
+    "name": "Хранитель",
+    "emoji": "🏰",
+    "description": "Пройти сюжетную главу «Древняя тайна»",
+    "condition": "story_chapter_5"
+  },
+  "story_chapter_6": {
+    "id": "story_chapter_6",
+    "name": "Огнеход",
+    "emoji": "🌋",
+    "description": "Пройти сюжетную главу «Испытание жарой»",
+    "condition": "story_chapter_6"
+  },
+  "story_chapter_7": {
+    "id": "story_chapter_7",
+    "name": "Легенда",
+    "emoji": "🌌",
+    "description": "Пройти сюжетную главу «Финальная битва»",
+    "condition": "story_chapter_7"
+  },
+  "competition_winner": {
+    "id": "competition_winner",
+    "name": "Победитель Жора",
+    "emoji": "🏆",
+    "description": "Занять 1 место в соревновании",
+    "condition": "competition_win_1"
+  },
+  "competition_silver": {
+    "id": "competition_silver",
+    "name": "Серебряный Жор",
+    "emoji": "🥈",
+    "description": "Занять 2 место в соревновании",
+    "condition": "competition_win_2"
+  },
+  "competition_bronze": {
+    "id": "competition_bronze",
+    "name": "Бронзовый Жор",
+    "emoji": "🥉",
+    "description": "Занять 3 место в соревновании",
+    "condition": "competition_win_3"
+  },
+  "competition_top10": {
+    "id": "competition_top10",
+    "name": "Лучший едок",
+    "emoji": "⭐",
+    "description": "Войти в топ-10 соревнования",
+    "condition": "competition_win_top10"
+  }
+}

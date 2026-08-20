@@ -1,0 +1,227 @@
+{
+  "furniture": {
+    "sofa": {
+      "name": "Диван",
+      "emoji": "🛋️",
+      "description": "Мягкий диван для отдыха",
+      "category": "living_room",
+      "price_coins": 100,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 3
+      },
+      "rarity": "common"
+    },
+    "tv": {
+      "name": "Телевизор",
+      "emoji": "📺",
+      "description": "Для просмотра любимых шоу",
+      "category": "living_room",
+      "price_coins": 200,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 5
+      },
+      "rarity": "common"
+    },
+    "bookshelf": {
+      "name": "Книжный шкаф",
+      "emoji": "📚",
+      "description": "Для умных питомцев",
+      "category": "living_room",
+      "price_coins": 150,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 4,
+        "luck_boost": 2
+      },
+      "rarity": "uncommon"
+    },
+    "fireplace": {
+      "name": "Камин",
+      "emoji": "🔥",
+      "description": "Уютный камин для тёплых вечеров",
+      "category": "living_room",
+      "price_coins": 300,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 8,
+        "energy_recovery_boost": 5
+      },
+      "rarity": "rare"
+    },
+    "fridge": {
+      "name": "Холодильник",
+      "emoji": "🧊",
+      "description": "Для хранения вкусностей",
+      "category": "kitchen",
+      "price_coins": 150,
+      "price_premium": 0,
+      "bonuses": {
+        "hunger_reduction": 5
+      },
+      "rarity": "common"
+    },
+    "stove": {
+      "name": "Плита",
+      "emoji": "🍳",
+      "description": "Для приготовления вкусной еды",
+      "category": "kitchen",
+      "price_coins": 250,
+      "price_premium": 0,
+      "bonuses": {
+        "hunger_reduction": 10
+      },
+      "rarity": "uncommon"
+    },
+    "table": {
+      "name": "Обеденный стол",
+      "emoji": "🍽️",
+      "description": "Для семейных обедов",
+      "category": "kitchen",
+      "price_coins": 100,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 2
+      },
+      "rarity": "common"
+    },
+    "bed": {
+      "name": "Кровать",
+      "emoji": "🛏️",
+      "description": "Мягкая кровать для сладких снов",
+      "category": "bedroom",
+      "price_coins": 200,
+      "price_premium": 0,
+      "bonuses": {
+        "energy_recovery_boost": 15
+      },
+      "rarity": "uncommon"
+    },
+    "lamp": {
+      "name": "Ночник",
+      "emoji": "💡",
+      "description": "Тёплый свет перед сном",
+      "category": "bedroom",
+      "price_coins": 50,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 2
+      },
+      "rarity": "common"
+    },
+    "mirror": {
+      "name": "Зеркало",
+      "emoji": "🪞",
+      "description": "Для любования собой",
+      "category": "bedroom",
+      "price_coins": 80,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 3,
+        "luck_boost": 2
+      },
+      "rarity": "common"
+    },
+    "tree": {
+      "name": "Дерево",
+      "emoji": "🌳",
+      "description": "Большое зелёное дерево",
+      "category": "garden",
+      "price_coins": 120,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 5
+      },
+      "rarity": "common"
+    },
+    "flowers": {
+      "name": "Цветы",
+      "emoji": "🌺",
+      "description": "Красивые цветы для сада",
+      "category": "garden",
+      "price_coins": 60,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 3,
+        "luck_boost": 3
+      },
+      "rarity": "common"
+    },
+    "fountain": {
+      "name": "Фонтан",
+      "emoji": "⛲",
+      "description": "Расслабляющий фонтан",
+      "category": "garden",
+      "price_coins": 400,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 10,
+        "energy_recovery_boost": 10
+      },
+      "rarity": "rare"
+    },
+    "pool_table": {
+      "name": "Бильярд",
+      "emoji": "🎱",
+      "description": "Для весёлых игр",
+      "category": "game_room",
+      "price_coins": 300,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 10
+      },
+      "rarity": "uncommon"
+    },
+    "arcade": {
+      "name": "Игровой автомат",
+      "emoji": "🕹️",
+      "description": "Для настоящих геймеров",
+      "category": "game_room",
+      "price_coins": 500,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 15,
+        "luck_boost": 5
+      },
+      "rarity": "rare"
+    },
+    "pool": {
+      "name": "Надувной бассейн",
+      "emoji": "🏊",
+      "description": "Освежающий бассейн",
+      "category": "pool",
+      "price_coins": 600,
+      "price_premium": 0,
+      "bonuses": {
+        "energy_recovery_boost": 25,
+        "happiness_boost": 10
+      },
+      "rarity": "rare"
+    },
+    "telescope": {
+      "name": "Телескоп",
+      "emoji": "🔭",
+      "description": "Для наблюдения за звёздами",
+      "category": "garden",
+      "price_coins": 350,
+      "price_premium": 0,
+      "bonuses": {
+        "luck_boost": 10
+      },
+      "rarity": "rare"
+    },
+    "piano": {
+      "name": "Пианино",
+      "emoji": "🎹",
+      "description": "Для музыкальных питомцев",
+      "category": "living_room",
+      "price_coins": 450,
+      "price_premium": 0,
+      "bonuses": {
+        "happiness_boost": 12
+      },
+      "rarity": "rare"
+    }
+  }
+}

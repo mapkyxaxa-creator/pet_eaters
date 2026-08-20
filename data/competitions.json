@@ -1,0 +1,16 @@
+{
+  "competition_types": [
+    {"id": "pizza", "name": "Пицца-челлендж", "emoji": "🍕", "description": "Кто съест больше пицц за 60 секунд"},
+    {"id": "sausage", "name": "Сосисочная гонка", "emoji": "🌭", "description": "Кто быстрее съест 10 сосисок"},
+    {"id": "cake", "name": "Торт-испытание", "emoji": "🎂", "description": "Кто съест больше тортов до переедания"},
+    {"id": "random", "name": "Случайный жор", "emoji": "🎲", "description": "Случайная еда, кто съест больше"}
+  ],
+  "leagues": [
+    {"id": "bronze", "name": "Бронзовая", "emoji": "🥉", "min_score": 0, "max_score": 100},
+    {"id": "silver", "name": "Серебряная", "emoji": "🥈", "min_score": 101, "max_score": 300},
+    {"id": "gold", "name": "Золотая", "emoji": "🥇", "min_score": 301, "max_score": 600},
+    {"id": "diamond", "name": "Алмазная", "emoji": "💎", "min_score": 601, "max_score": 1000},
+    {"id": "legendary", "name": "Легендарная", "emoji": "👑", "min_score": 1001, "max_score": 999999}
+  ],
+  "season_duration_days": 30
+}
