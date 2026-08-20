@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pet_eaters
+    runtime: python
+    repo: https://github.com/mapkyxaxa-creator/pet_eaters
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
